@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 const JournalForm = ({ onSubmit }) => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     date: new Date().toLocaleDateString(),
     topic: "",
@@ -32,7 +34,7 @@ const JournalForm = ({ onSubmit }) => {
       message: "",
       mood: ""
     });
-    window.location.href = "/entries";
+    navigate("/entries");
   };
 
   return (

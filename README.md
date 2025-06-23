@@ -42,8 +42,8 @@ Built with **React**, **Sass**, **React Router**, and **Recharts**. All entries 
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/dsa-daily-journal.git
-cd dsa-daily-journal
+git clone https://github.com/your-username/DSA-J.git
+cd DSA-J
 
 # Install dependencies
 npm install
